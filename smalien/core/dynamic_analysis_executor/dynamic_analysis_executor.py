@@ -191,7 +191,7 @@ class DynAnalysisExecutor(dataflow_tracer.DataflowTracer):
             stderr=subprocess.STDOUT,
             shell=True
         )
-        line_total = output.decode('utf-8').split(' ')[0]
+        line_total = output.decode('utf-8').strip().split(' ')[0]
         return int(line_total)
 
     def run(self):
