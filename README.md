@@ -49,11 +49,12 @@ For example, run VTDroid with da_text_scaling as follows:
 1. Unzip the target
 
 ```
-$ cd VTDroid/workspace_ts_pld/
+$ cd workspace_ts_pld/
 $ unzip da_text_scaling.zip
+$ cd ..
 ```
 
-2. Go to VTDroid/ and run the command
+2. Run the command in VTDroid/
 
 ```
 $ python3 -m smalien.main -t smalien/parameters/parameters_ts_pld_ifa.json workspace_ts_pld/da_text_scaling/ workspace_ts_pld/da_text_scaling/da_text_scaling.apk
