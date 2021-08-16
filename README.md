@@ -8,6 +8,8 @@ VTDroid is a taint analysis tool for Android app analysis. Currently, VTDroid is
 
 ### Requirements
 - Python 3.6 or later
+- Python modules
+    - psutil
 - VTDroid uses the following tools:
     - adb
     - aapt
