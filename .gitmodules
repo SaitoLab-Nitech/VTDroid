@@ -1,0 +1,3 @@
+[submodule "ATATechniques"]
+	path = ATATechniques
+	url = git@github.com:SaitoLab-Nitech/ATATechniques.git
