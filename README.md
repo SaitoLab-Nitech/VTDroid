@@ -1,8 +1,13 @@
 # VTDroid
 
-VTDroid is a taint analysis tool for Android app analysis. Currently, VTDroid is built for privacy leak detection. We presented VTDroid and our [test suite](https://github.com/SaitoLab-Nitech/ATATechniques) at [ARES 2021](https://www.ares-conference.eu/). When you reference this work, please cite our paper by the following:
+VTDroid is a taint analysis tool for Android app analysis. We presented VTDroid and our [test suite](https://github.com/SaitoLab-Nitech/ATATechniques) at [ARES 2021](https://www.ares-conference.eu/). Also, our journal paper has been published in August 2022, and we are preparing to open the new version of VTDroid used in the journal paper. **We will soon update this repository.**
 
-- Hiroki Inayoshi, Shohei Kakei, Eiji Takimoto, Koichi Mouri, and Shoichi Saito. 2021. VTDroid: Value-based Tracking for Overcoming Anti-Taint-Analysis Techniques in Android Apps. In The 16th International Conference on Availability, Reliability and Security (ARES 2021), August 17–20, 2021, Vienna, Austria. ACM, New York, NY, USA, 6 pages. https://doi.org/10.1145/3465481.3465759
+When you reference this work, please cite our paper by one of the followings:
+
+- ARES 2021
+    - Hiroki Inayoshi, Shohei Kakei, Eiji Takimoto, Koichi Mouri, and Shoichi Saito. 2021. VTDroid: Value-based Tracking for Overcoming Anti-Taint-Analysis Techniques in Android Apps. In The 16th International Conference on Availability, Reliability and Security (ARES 2021), August 17–20, 2021, Vienna, Austria. ACM, New York, NY, USA, 6 pages. https://doi.org/10.1145/3465481.3465759
+- Journal paper
+    - https://link.springer.com/article/10.1007/s10207-022-00603-9
 
 ## Setup
 
