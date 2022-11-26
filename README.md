@@ -1,6 +1,6 @@
 # VTDroid
 
-VTDroid is a taint analysis tool for Android app analysis. We presented VTDroid and our [test suite](https://github.com/SaitoLab-Nitech/ATATechniques) at [ARES 2021](https://www.ares-conference.eu/). Also, our journal paper has been published in August 2022, and we are preparing to open the new version of VTDroid used in the journal paper. **We will soon update this repository.**
+VTDroid is a taint analysis tool for Android app analysis. We presented VTDroid and our [test suite](https://github.com/SaitoLab-Nitech/ATATechniques) at [ARES 2021](https://www.ares-conference.eu/). Also, our journal paper has been published in August 2022, and we have updated the code of VTDroid in this repository.
 
 When you reference this work, please cite our paper by one of the followings:
 
