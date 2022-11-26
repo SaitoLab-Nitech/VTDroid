@@ -24,8 +24,9 @@
 
 class InformationPreservationInspector():
     def check_information_preservation_vis(self, receptor, b):
-        if (len(b.get_values_with_both_conditions()) < 2):
-            return False
+        # if (len(b.get_values_with_both_conditions()) < 2):
+        #     return False
+
         # Check 1
         result = self.__check_unique_decodability(
             receptor.get_branch_values(),
@@ -44,8 +45,9 @@ class InformationPreservationInspector():
         return False
 
     def check_information_preservation_inv(self, da_receptor, receptor, b):
-        if (len(b.get_values_with_both_conditions()) < 2):
-            return False
+        # if (len(b.get_values_with_both_conditions()) < 2):
+        #     return False
+
         # Check 1
         result = self.__check_unique_decodability(
             receptor.get_branch_values(),
